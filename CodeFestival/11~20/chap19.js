@@ -4,3 +4,7 @@ function solution(a, b) {
         result *= a;
     }
 }
+
+//해설 답안
+// const num = ['2', '6'];
+// console.log(Math.pow(parseInt(num[0], 10), parseInt(num[1], 10)));

@@ -5,7 +5,6 @@ class Wizard {
         this.health = health;
         this.mana = mana;
         this.armor = armor;
-        console.log(this.health, this.mana, this.armor);
     }
     attack() {
         console.log('파이어볼');
