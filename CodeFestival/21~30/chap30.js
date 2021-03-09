@@ -7,7 +7,7 @@ function solution(str, check) {
     }
 }
 
-let str = 'pineapple is yummy';
+let str = 'pineapple is ypineappleummy';
 let check = 'apple';
 
 console.log(str.indexOf(check));
