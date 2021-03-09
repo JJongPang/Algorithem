@@ -1,5 +1,4 @@
 function solution(str, check) {
-    let result = str.splite();
     let result = str.split(' ');
     for (let i = 0; i < result.length; i++) {
         if (result[i] === check) {
@@ -7,3 +6,8 @@ function solution(str, check) {
         }
     }
 }
+
+let str = 'pineapple is yummy';
+let check = 'apple';
+
+console.log(str.indexOf(check));
